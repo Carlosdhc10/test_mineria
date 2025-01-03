@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+*.log
+yolov5/runs/
+yolov5/weights/
+yolov5/__pycache__/
