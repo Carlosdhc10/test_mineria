@@ -1,9 +1,28 @@
-.venv/
-__pycache__/
+# Python
 *.pyc
 *.pyo
+__pycache__/
+
+# Virtual Environment
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDEs y editores
 .idea/
+
+# Archivos de log
 *.log
+
+# Directorios específicos de YOLOv5
 yolov5/runs/
 yolov5/weights/
 yolov5/__pycache__/
+
+# Archivos generados por sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Data folders (excluir si no quieres subirlos)
+data/
